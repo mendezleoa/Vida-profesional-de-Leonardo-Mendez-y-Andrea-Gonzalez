@@ -1,72 +1,360 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/logo.svg" />
+  <v-container class="fill-height mx-auto">
+    <v-col cols="12" md="5">
+      <v-sheet class="mx-auto d-flex flex-column align-center" width="fit-content">
+        <v-avatar size="80px">
+          <v-img
+            alt="Avatar"
+            src="https://avatars.githubusercontent.com/u/92312161?s=48&v=4"
+          ></v-img>
+        </v-avatar>
+        <strong v-html="'Leonardo Mendez'" class="my-3"></strong>
+      </v-sheet>
+      <v-expansion-panels variant="popout" class="pa-4">
+        <v-expansion-panel key="personality" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
 
-      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
+              </v-col>
 
-      <h1 class="text-h2 font-weight-bold">Vuetify</h1>
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Personalidad'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="academic" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
 
-      <div class="py-14" />
+              </v-col>
 
-      <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <v-btn
-            href="https://vuetifyjs.com/components/all/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-view-dashboard"
-              size="large"
-              start
-            />
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Información academica'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="experience" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
 
-            Components
-          </v-btn>
-        </v-col>
+              </v-col>
 
-        <v-col cols="auto">
-          <v-btn
-            color="primary"
-            href="https://vuetifyjs.com/introduction/why-vuetify/#feature-guides"
-            min-width="228"
-            rel="noopener noreferrer"
-            size="x-large"
-            target="_blank"
-            variant="flat"
-          >
-            <v-icon
-              icon="mdi-speedometer"
-              size="large"
-              start
-            />
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Experiencia laboral'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="skills" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
 
-            Get Started
-          </v-btn>
-        </v-col>
+              </v-col>
 
-        <v-col cols="auto">
-          <v-btn
-            href="https://community.vuetifyjs.com/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-account-group"
-              size="large"
-              start
-            />
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Habilidades'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="contacto" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
 
-            Community
-          </v-btn>
-        </v-col>
-      </v-row>
-    </v-responsive>
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Contacto'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="ubication" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Ubicación'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-col>
+    <v-col cols="12" md="2" order="1" order-md="0" class="text-center">
+      <div class="text-body-1 font-weight-light mb-2">Desarrollado con</div>
+      <div class="d-sm-flex d-md-block align-center justify-center">
+        <v-sheet class="flex-grow-1">
+          <v-img height="100" src="@/assets/logo.svg" />
+          <p class="text-body-1 font-weight-bold">Vuetify</p>
+        </v-sheet>
+        <v-sheet class="flex-grow-1">
+          <v-img height="100" src="@/assets/logo.svg" />
+          <p class="text-body-1 font-weight-bold">Vue</p>
+        </v-sheet>
+        <v-sheet class="flex-grow-1">
+          <v-img height="100" src="@/assets/logo.svg" />
+          <p class="text-body-1 font-weight-bold">Vite</p>
+        </v-sheet>
+      </div>
+    </v-col>
+    <v-col cols="12" md="5">
+      <v-sheet class="mx-auto d-flex flex-column align-center" width="fit-content">
+        <v-avatar size="80px">
+          <v-img
+            alt="Avatar"
+            src="https://avatars.githubusercontent.com/u/89424193?s=64&v=4"
+          ></v-img>
+        </v-avatar>
+        <strong v-html="'Andrea Gonzalez'" class="my-3"></strong>
+      </v-sheet>
+      <v-expansion-panels variant="popout" class="pa-4">
+        <v-expansion-panel key="personality" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Personalidad'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="academic" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Información academica'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="experience" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Experiencia laboral'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="skills" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Habilidades'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="contacto" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Contacto'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+        <v-expansion-panel key="ubication" hide-actions>
+          <v-expansion-panel-title>
+            <v-row
+              align="center"
+              class="spacer"
+              no-gutters
+            >
+              <v-col
+                cols="4"
+                sm="2"
+                md="1"
+              >
+
+              </v-col>
+
+              <v-col
+                class="hidden-xs-only text-left ms-2"
+              >
+                <strong v-html="'Ubicación'"></strong>
+              </v-col>
+            </v-row>
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-card-text v-text="'lorem'"></v-card-text>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-col>
   </v-container>
 </template>
 
