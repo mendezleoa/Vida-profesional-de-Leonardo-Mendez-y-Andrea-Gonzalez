@@ -1,28 +1,32 @@
-# vida-profesional
+# Vida-profesional-de-Leonardo-Mendez-y-Andrea-Gonzalez
 
-This template should help get you started developing with Vue 3 in Vite.
+_Curriculum de los estudiantes Leonardo Méndez y Andrea González_
 
-## Recommended IDE Setup
+## Instrucciones de configuración e instalación
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Configuraciones recomendadas de IDE
 
-## Customize configuration
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (deshabilitar Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Cambiar la configuracion
 
-## Project Setup
+Ver [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Instalar proyecto
+
+_Ejecutar la instalación por consola_
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+_Compilar y ejecutar en modo Desarrollador_
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+_Compilar y construir una Build finalizada_
 
 ```sh
 npm run build
