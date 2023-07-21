@@ -31,3 +31,21 @@ _Compilar y construir una Build finalizada_
 ```sh
 npm run build
 ```
+
+## Construido con
+
+_Se ha diseñado el proyecto utilizando Vuetify una librería que facilita el uso de Vue_
+
+* [Vue](https://vuejs.org/) - El framework web usado
+* [Vuetify](https://vuetifyjs.com/en/) - Librería de complementos utilizada
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Andrea González** - *Trabajo Inicial* - [Aderauwu04](https://github.com/Aderauwu04)
+* **leonardo Méndez** - *Documentación e Información* - [mendezleoa](https://github.com/mendezleoa)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT License) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
