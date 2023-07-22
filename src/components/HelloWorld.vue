@@ -173,15 +173,14 @@
       <div class="text-body-1 font-weight-light mb-2">Desarrollado con</div>
       <div class="d-sm-flex d-md-block align-center justify-center">
         <v-sheet class="flex-grow-1">
-          <v-img height="100" src="@/assets/logo.svg" />
-          <p class="text-body-1 font-weight-bold">Vuetify</p>
+          <v-img height="100" src="https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-v3-slim-text-light.svg" />
         </v-sheet>
         <v-sheet class="flex-grow-1">
-          <v-img height="100" src="@/assets/logo.svg" />
+          <v-img height="100" src="https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-v3-slim-text-light.svg" />
           <p class="text-body-1 font-weight-bold">Vue</p>
         </v-sheet>
         <v-sheet class="flex-grow-1">
-          <v-img height="100" src="@/assets/logo.svg" />
+          <v-img height="100" src="https://vitejs.dev/logo.svg" />
           <p class="text-body-1 font-weight-bold">Vite</p>
         </v-sheet>
       </div>
