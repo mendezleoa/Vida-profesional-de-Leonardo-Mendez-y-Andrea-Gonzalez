@@ -18,17 +18,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-face-man-shimmer"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Personalidad'"></strong>
               </v-col>
             </v-row>
@@ -44,18 +37,11 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-account-school"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
-                <strong v-html="'Información academica'"></strong>
+              <v-col class="hidden-xs-only text-left ms-2">
+                <strong v-html="'Información académica'"></strong>
               </v-col>
             </v-row>
           </v-expansion-panel-title>
@@ -74,17 +60,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-badge-account-outline"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Experiencia laboral'"></strong>
               </v-col>
             </v-row>
@@ -108,17 +87,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-account-star"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Habilidades'"></strong>
               </v-col>
             </v-row>
@@ -142,17 +114,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-card-account-phone"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Contacto'"></strong>
               </v-col>
             </v-row>
@@ -172,17 +137,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
               <v-icon icon="mdi-map-marker-account"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Ubicación'"></strong>
               </v-col>
             </v-row>
@@ -227,17 +185,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-face-woman-shimmer"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Personalidad'"></strong>
               </v-col>
             </v-row>
@@ -257,18 +208,11 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-account-school"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
-                <strong v-html="'Información academica'"></strong>
+              <v-col class="hidden-xs-only text-left ms-2">
+                <strong v-html="'Información académica'"></strong>
               </v-col>
             </v-row>
           </v-expansion-panel-title>
@@ -287,17 +231,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-badge-account-outline"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Experiencia laboral'"></strong>
               </v-col>
             </v-row>
@@ -317,23 +254,27 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
               <v-icon icon="mdi-account-star"></v-icon>
             </v-col>
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
-                <strong v-html="'Habilidades'"></strong>
-              </v-col>
+            <v-col class="hidden-xs-only text-left ms-2">
+              <strong v-html="'Habilidades'"></strong>
+            </v-col>
             </v-row>
           </v-expansion-panel-title>
           <v-expansion-panel-text>
             <v-card-text>
-
+              • Manejo de software de diseño para UI/UX.
+              <br />
+              • Conocimiento programático en lenguajes de desarrollo web como Python, JavaScript, CSS, entre otros.
+              <br />
+              • Conocimiento programático en Frameworks de Javascript como Vue y React.
+                <br />
+                Ademas de manejo de preprocesadores de CSS como SASS
+              <br />
+              • Uso de lenguaje inglés avanzado.
+              <br />
+              • Facilidad para entrar en un grupo de trabajo.
             </v-card-text>
           </v-expansion-panel-text>
         </v-expansion-panel>
@@ -344,17 +285,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-card-account-phone"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Contacto'"></strong>
               </v-col>
             </v-row>
@@ -376,17 +310,10 @@
               class="spacer"
               no-gutters
             >
-              <v-col
-                cols="4"
-                sm="2"
-                md="1"
-              >
+              <v-col cols="2">
                 <v-icon icon="mdi-map-marker-account"></v-icon>
               </v-col>
-
-              <v-col
-                class="hidden-xs-only text-left ms-2"
-              >
+              <v-col class="hidden-xs-only text-left ms-2">
                 <strong v-html="'Ubicación'"></strong>
               </v-col>
             </v-row>
